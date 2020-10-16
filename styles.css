@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap');
+
+:root {
+    --color-mimi: #7159c1;
+    --color-red: #ff0000;
+    --color-full: #282a36
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: var(--color-full);
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    background-color: white;
+}
+
+.predios img {
+    height: 260px;
+    width: 1260px;
+}
+
+.logo {
+    padding: 5px;
+}
+
+.menu a {
+    color: black;
+    font-size: 18px;
+    line-height: 38px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: var(--color-mimi);
+    transition: color 700ms;
+}
+
+.alica {
+    text-align: center;
+    padding: 32px;
+}
+
+#imgmimi img {
+    border-radius: 50px 50px;
+    border: 5px solid var(--color-mimi);
+    margin-bottom: 32px;
+    height: 300px;
+}
+
+.alica h1 {
+        font-size: 42px;
+        line-height: 52px;
+        font-weight: bold;
+}
+
+.alica h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+.alica p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.alica p a {
+    color: (var(--color-mimi));
+    
+}
+
+.alica p a:hover {
+    color: var(--color-mimi);
+    transition: color 700ms;
+}
+
+/*== imoveis ==*/
+
+.imoveis {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imoveis-home {
+    background-color: var(--color-mimi);
+    border-radius: 1%;
+    border: 5px solid var(--color-mimi);
+}
+
+.imoveis-container img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.class-content,
+.class-info {
+    text-align: center;
+    padding: 24px;
+    font-size: 20px;
+}
+
+.class-info {
+    grid-template-columns: 1fr 1fr;
+}
+
+.class-info p {
+    background-color: var(--color-mimi);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
