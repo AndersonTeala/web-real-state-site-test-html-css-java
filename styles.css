@@ -3,7 +3,8 @@
 :root {
     --color-mimi: #7159c1;
     --color-red: #ff0000;
-    --color-full: #282a36
+    --color-full: #282a36;
+    --color-andersonteala: #4169e1;
 }
 
 * {
@@ -20,12 +21,12 @@ header{
     padding: 10px;
     border-bottom: 1px solid #333;
     text-align: center;
-    background-color: white;
+    background-color: #d7d2e9;
 }
 
 .predios img {
-    height: 260px;
-    width: 1260px;
+    height:300px;
+    width: 100%;
 }
 
 .logo {
@@ -113,8 +114,16 @@ header{
 .class-content,
 .class-info {
     text-align: center;
-    padding: 24px;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.class-content p {
+    padding: 5px;
+}
+
+.bairro {
+    font-size: 15px;
 }
 
 .class-info {
@@ -127,4 +136,40 @@ header{
     padding: 5px 20px;
     border-radius: 20px;
     text-align: center;
+}
+
+/*== INFORMACOES NO INICIO ==*/
+
+.death {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.death p {
+    font: 20px;
+    text-align: center;
+    background-color: var(--color-mimi);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: auto;
+}
+
+/*== FOOTER ==*/
+
+.footer {
+    font-size: 14px;
+    color: var(--color-andersonteala);
+    text-align: center;
+    padding: 20px;
+    background-color: #d7d2e9;
+    );
+}
+
+.footer p a {
+    text-decoration: none;
+    color: var(--color-full);
+    line-height: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
