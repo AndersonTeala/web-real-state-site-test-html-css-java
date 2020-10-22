@@ -5,6 +5,7 @@
     --color-red: #ff0000;
     --color-full: #282a36;
     --color-andersonteala: #4169e1;
+    --color-top: #d7d2e9;
 }
 
 * {
@@ -21,7 +22,14 @@ header{
     padding: 10px;
     border-bottom: 1px solid #333;
     text-align: center;
-    background-color: #d7d2e9;
+    background-color: var(--color-top);
+}
+
+.releases h3{
+    padding: 24px;
+    color: var(--color-mimi);
+    font-size: 44px;
+    text-align: center;
 }
 
 .predios img {
@@ -172,4 +180,55 @@ header{
     color: var(--color-full);
     line-height: 10px;
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*== PROPERTIES ==*/
+
+.prip h4 {
+    font-size: 54px;
+    padding: 14px;
+    text-align: center;
+    color: var(--color-mimi);
+}
+
+.gizes{
+    max-width: 400px;
+    display: grid;
+    gap: 20px;
+    padding: 24px;
+}
+
+.gizes img{
+    height: 480px;
+    border-radius: 15px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.gizes p{
+    font-size: 24px;
+    text-align: left;
+    color: var(--color-mimi);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.cards {
+    background-color: var(--color-top);
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.pop p{
+    text-align: left;
+    font-size: 34px;
+    padding: 5px;
+}
+
+.lazer p{
+    text-align: left;
+    font-size: 20px;
+    padding: 5px;
 }
