@@ -172,7 +172,6 @@ header{
     text-align: center;
     padding: 20px;
     background-color: #d7d2e9;
-    );
 }
 
 .footer p a {
@@ -231,4 +230,93 @@ header{
     text-align: left;
     font-size: 20px;
     padding: 5px;
+}
+
+/*== ABOUT ==*/
+
+.about h1 {
+    padding: 8px;
+    font-size: 52px;
+    text-align: center;
+}
+
+.about p {
+    padding: 14px;
+    font-size: 24px;
+    text-align: left;
+}
+
+.about {
+    padding: 24px;
+}
+
+/*== FORM ==*/
+
+.contact {
+    padding: 24px;
+}
+
+.contact h1 {
+    padding: 8px;
+    font-size: 52px;
+    text-align: center;
+}
+
+.contact p {
+padding: 5px;
+font-size: 18px;
+text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid var(--color-mimi);
+    border-radius: 1em;
+    background-color: var(--color-top);
+    color: var(--color-full);
+    font-weight: bold;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid var(--color-mimi);
+}
+
+input:focus, textarea:focus {
+    border-color: var(--color-mimi);
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 100px;
+}
+
+button {
+    background-color: var(--color-full);
+    border-radius: 10px;
+    margin-left: .5em;
+    color: var(--color-top);
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
 }
