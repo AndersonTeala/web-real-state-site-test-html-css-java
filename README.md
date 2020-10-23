@@ -1,3 +1,3 @@
 # web-real-state-site-test-html-css-java
 
-add new file properties.html
+A website for real estate, feel free to contribute to the website or for your own use, just don't forget to always be who you are :)
