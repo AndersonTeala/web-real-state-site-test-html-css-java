@@ -6,6 +6,7 @@
     --color-full: #282a36;
     --color-andersonteala: #4169e1;
     --color-top: #d7d2e9;
+    --color-kike: white;
 }
 
 * {
@@ -18,6 +19,7 @@ body {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 header{
     padding: 10px;
     border-bottom: 1px solid #333;
@@ -183,6 +185,12 @@ header{
 
 /*== PROPERTIES ==*/
 
+.crack{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1px;
+}
+
 .prip h4 {
     font-size: 54px;
     padding: 14px;
@@ -191,33 +199,37 @@ header{
 }
 
 .gizes{
-    max-width: 400px;
-    display: grid;
-    gap: 20px;
+    max-width: auto;
+    gap: 200px;
     padding: 24px;
 }
 
 .gizes img{
-    height: 480px;
+    height: 380px;
     border-radius: 15px;
-    padding: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+}
+
+#lazer {
+    color: var(--color-kike);
+    font-size: 36px;
 }
 
 .gizes p{
-    font-size: 24px;
+    font-size: 18px;
     text-align: left;
-    color: var(--color-mimi);
+    color: var(--color-kike);
     font-weight: bold;
     padding: 10px;
 }
 
 .cards {
-    background-color: var(--color-top);
-    padding: 1px;
+    background-color: var(--color-mimi);
+    padding: 5px;
     border-radius: 5px;
+}
+
+.map {
+    padding: 5px;
 }
 
 .pop p{
